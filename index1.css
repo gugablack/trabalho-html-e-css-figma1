@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+}
+
+.imagem-topo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color:darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer img {
+    width: 213.5px;
+    display: block;
+    margin: 0 auto 7px auto; 
+    position:absolute;
+    bottom: -578px; 
+    left: 0px;   
+
+}
+
+
+.texto-footer ul {
+    margin: 5px 0;
+   position: relative;
+   top: -20px;
+   list-style:none ;
+   
+}
+
+.texto-footer h1 {
+  font-size: 20px;
+  position:relative;
+  left: -320px;  
+  font-family:Irish Grover; 
+  bottom: -30px;
+}
+
+h2 {
+    position: relative;      
+    right: 10px;           
+    bottom: 65px;
+    text-align: right;
+    font-size: 15px;      
+}
+
+ main a{
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 612px;
+    bottom: 100px;
+}
+
+.btn-verde {
+    background-color: green;  
+    color: white;              
+    border: none;              
+    padding: 10px 30px;        
+    font-size: 16px;           
+    border-radius: 5px;       
+    cursor: pointer;           
+}
+
+.btn-verde:hover {
+    background-color: darkgreen; 
+}
+nav div{
+   float: left;
+   position: absolute;
+   left: 1300px;
+   bottom: 650px;
+}
